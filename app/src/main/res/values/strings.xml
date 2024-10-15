@@ -1,0 +1,100 @@
+<resources>
+    <!--Essenciais-->
+    <string name="app_name">Zero a Cinquenta</string>
+
+    <!--Anúncio-->
+    <string name="adID">ca-app-pub-9218769381944425~1106639996</string>
+
+    <string name="adUnitID">ca-app-pub-9218769381944425/2583373193</string>
+    <!--Banner
+    Real: ca-app-pub-9218769381944425/2583373193
+    Teste: ca-app-pub-3940256099942544/6300978111
+    -->
+    <string name="adIntersticialID">ca-app-pub-9218769381944425/3386579382</string>
+    <!--Intersticial
+    Real: ca-app-pub-9218769381944425/3386579382
+    Teste: ca-app-pub-3940256099942544/1033173712
+    -->
+
+    <!--Menu-->
+    <string name="menu_removeAds">Remover anúncios</string>
+    <string name="menu_comoJogar">Como Jogar</string>
+    <string name="urlZeroACinquentaPremium">https://play.google.com/store/apps/details?id=com.rotech.zeroacinquentapremium</string>
+
+    <!--Dialog Acerto-->
+    <string name="dialogAcertoTitulo">Você encontrou!</string>
+    <string name="dialogAcertoMensagem">Jogue novamente!</string>
+    <string name="dialogAcertoContinuar">Continuar</string>
+
+    <!--Dialog Confirmar Reset-->
+    <string name="dialogConfirmarTitulo">Deseja reiniciar?</string>
+    <string name="dialogConfirmarMensagem">Isso fará você perder a partida atual!</string>
+    <string name="dialogSim">Sim</string>
+    <string name="dialogNao">Não</string>
+
+    <!--Textos instruncionais-->
+    <string name="txtDoseEscondida">Número escolhido, passe para o próximo!</string>
+    <string name="txtNumeroSorteado">Numero sorteado, boa sorte a todos!</string>
+    <string name="txtEscondaADose">Escolha um número!</string>
+
+    <!--Botões-->
+    <string name="strSortear">Sortear</string>
+    <string name="strSelecionar">Selecionar</string>
+    <string name="s01">01</string>
+    <string name="s02">02</string>
+    <string name="s03">03</string>
+    <string name="s04">04</string>
+    <string name="s05">05</string>
+    <string name="s06">06</string>
+    <string name="s07">07</string>
+    <string name="s08">08</string>
+    <string name="s09">09</string>
+    <string name="s10">10</string>
+    <string name="s11">11</string>
+    <string name="s12">12</string>
+    <string name="s13">13</string>
+    <string name="s14">14</string>
+    <string name="s15">15</string>
+    <string name="s16">16</string>
+    <string name="s17">17</string>
+    <string name="s18">18</string>
+    <string name="s19">19</string>
+    <string name="s20">20</string>
+    <string name="s21">21</string>
+    <string name="s22">22</string>
+    <string name="s23">23</string>
+    <string name="s24">24</string>
+    <string name="s25">25</string>
+    <string name="s26">26</string>
+    <string name="s27">27</string>
+    <string name="s28">28</string>
+    <string name="s29">29</string>
+    <string name="s30">30</string>
+    <string name="s31">31</string>
+    <string name="s32">32</string>
+    <string name="s33">33</string>
+    <string name="s34">34</string>
+    <string name="s35">35</string>
+    <string name="s36">36</string>
+    <string name="s37">37</string>
+    <string name="s38">38</string>
+    <string name="s39">39</string>
+    <string name="s40">40</string>
+    <string name="s41">41</string>
+    <string name="s42">42</string>
+    <string name="s43">43</string>
+    <string name="s44">44</string>
+    <string name="s45">45</string>
+    <string name="s46">46</string>
+    <string name="s47">47</string>
+    <string name="s48">48</string>
+    <string name="s49">49</string>
+    <string name="s50">50</string>
+
+    <string name="instrucoesComoJogar">Um jogo de adivinhação ao contrário, ou seja, seu objetivo é não adivinhar. App idealizado com base no famoso jogo de roda de amigos chamado "Zero a Cinquenta".
+        \n\nModo de jogo 1 (Escolher número):
+        \nAo escolher um número, a pessoa da vez passa para seu amigo ao lado. Este, escolhe um dos 50 números, caso erre, passa para o próximo. Se alguém acertar, perde e paga o "castigo", se não restarem números, exceto o número secreto, o que escondeu o jogador da vez é que perde.
+        \nA pessoa que paga a prenda é aquela que perdeu, esta agora é o que escolhe.
+        \n\nModo de jogo 2 (Sortear):
+        \nO jogador da vez pode usar a opção "sortear" disponível, o próprio jogo escolhe um número aleatório e ninguém mais saberá qual é, logo, o jogador da vez também participa desse modo de jogo, pois, também não sabe onde se encontra.</string>
+</resources>

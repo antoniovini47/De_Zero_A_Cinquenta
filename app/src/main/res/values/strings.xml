@@ -4,12 +4,13 @@
 
     <!--Anúncio-->
     <string name="adID">ca-app-pub-9218769381944425~1106639996</string>
-    <string name="adUnitID">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="adUnitID">ca-app-pub-9218769381944425/2583373193</string>
     <!--Banner
     Real: ca-app-pub-9218769381944425/2583373193
     Teste: ca-app-pub-3940256099942544/6300978111
     -->
-    <string name="adIntersticialID">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="adIntersticialID">ca-app-pub-9218769381944425/3386579382</string>
     <!--Intersticial
     Real: ca-app-pub-9218769381944425/3386579382
     Teste: ca-app-pub-3940256099942544/1033173712

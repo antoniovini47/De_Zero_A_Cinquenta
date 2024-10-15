@@ -109,12 +109,14 @@ public class MainActivity extends Activity implements View.OnClickListener{
             j++;
         }
 
-        //Anúncio Banner
+        //Starts Ads
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
+
+        //Anúncio Banner
         AdView adView = (AdView)findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);

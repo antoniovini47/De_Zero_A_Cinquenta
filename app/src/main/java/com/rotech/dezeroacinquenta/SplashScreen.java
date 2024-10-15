@@ -1,4 +1,4 @@
-package com.rotech.zeroacinquenta;
+package com.rotech.dezeroacinquenta;
 
 import android.app.Activity;
 import android.content.Intent;

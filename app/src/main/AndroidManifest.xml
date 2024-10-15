@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rotech.dezeroacinquenta">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -9,14 +10,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen"
+        <activity android:name="com.rotech.dezeroacinquenta.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.rotech.dezeroacinquenta.MainActivity"
             android:exported="true"/>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

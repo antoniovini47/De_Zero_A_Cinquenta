@@ -9,15 +9,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/gradiente_splash"
-    tools:context="rotech.zeroacinquenta.SplashScreen">
+    tools:context="com.rotech.dezeroacinquenta.SplashScreen">
 
     <ImageView
+        android:contentDescription="@string/descriptionLogo"
         android:padding="@dimen/logo"
         android:src="@drawable/logo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/imageSplash"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

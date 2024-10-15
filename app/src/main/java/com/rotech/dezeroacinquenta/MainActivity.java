@@ -1,4 +1,4 @@
-package com.rotech.zeroacinquenta;
+package com.rotech.dezeroacinquenta;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -29,6 +29,7 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+
 import java.util.Random;
 
 public class MainActivity extends Activity implements View.OnClickListener{
@@ -73,21 +74,18 @@ public class MainActivity extends Activity implements View.OnClickListener{
         popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.menu_removeAds:
-                        //Toast.makeText(getApplicationContext(), "clicou removeAds", Toast.LENGTH_SHORT).show();
-                        String url = getString(R.string.urlZeroACinquentaPremium);
-                        Intent i = new Intent(Intent.ACTION_VIEW);
-                        i.setData(Uri.parse(url));
-                        startActivity(i);
-                        return true;
-                    case R.id.menu_comoJogar:
-                        //Toast.makeText(getApplicationContext(), "Como Jogar", Toast.LENGTH_SHORT).show();
-                        popupIntrucoes();
-                        return true;
-                    default:
-                        return false;
+                int itemId = item.getItemId();
+                if (itemId == R.id.menu_removeAds) {//Toast.makeText(getApplicationContext(), "clicou removeAds", Toast.LENGTH_SHORT).show();
+                    String url = getString(R.string.urlZeroACinquentaPremium);
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse(url));
+                    startActivity(i);
+                    return true;
+                } else if (itemId == R.id.menu_comoJogar) {//Toast.makeText(getApplicationContext(), "Como Jogar", Toast.LENGTH_SHORT).show();
+                    popupIntrucoes();
+                    return true;
                 }
+                return false;
             }
         });
         popup.show();

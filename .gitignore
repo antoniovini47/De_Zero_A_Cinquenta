@@ -13,6 +13,7 @@ captures/
 .externalNativeBuild/
 .cxx/
 *.apk
+*.aab
 output.json
 
 # IntelliJ
@@ -31,3 +32,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+app/.DS_Store
+app/src/.DS_Store
+.DS_Store

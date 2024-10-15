@@ -1,4 +1,4 @@
-package com.rotech.zeroacinquenta;
+package com.rotech.dezeroacinquenta;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.rotech.zeroacinquenta", appContext.getPackageName());
+        assertEquals("com.rotech.dezeroacinquenta", appContext.getPackageName());
     }
 }

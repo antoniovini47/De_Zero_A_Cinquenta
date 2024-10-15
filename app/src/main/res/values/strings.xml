@@ -4,13 +4,12 @@
 
     <!--Anúncio-->
     <string name="adID">ca-app-pub-9218769381944425~1106639996</string>
-
-    <string name="adUnitID">ca-app-pub-9218769381944425/2583373193</string>
+    <string name="adUnitID">ca-app-pub-3940256099942544/6300978111</string>
     <!--Banner
     Real: ca-app-pub-9218769381944425/2583373193
     Teste: ca-app-pub-3940256099942544/6300978111
     -->
-    <string name="adIntersticialID">ca-app-pub-9218769381944425/3386579382</string>
+    <string name="adIntersticialID">ca-app-pub-3940256099942544/1033173712</string>
     <!--Intersticial
     Real: ca-app-pub-9218769381944425/3386579382
     Teste: ca-app-pub-3940256099942544/1033173712
@@ -20,6 +19,9 @@
     <string name="menu_removeAds">Remover anúncios</string>
     <string name="menu_comoJogar">Como Jogar</string>
     <string name="urlZeroACinquentaPremium">https://play.google.com/store/apps/details?id=com.rotech.zeroacinquentapremium</string>
+
+    <!--Descriptions-->
+    <string name="descriptionLogo">Logo do Zero a Cinquenta</string>
 
     <!--Dialog Acerto-->
     <string name="dialogAcertoTitulo">Você encontrou!</string>
@@ -96,5 +98,5 @@
         \nAo escolher um número, a pessoa da vez passa para seu amigo ao lado. Este, escolhe um dos 50 números, caso erre, passa para o próximo. Se alguém acertar, perde e paga o "castigo", se não restarem números, exceto o número secreto, o que escondeu o jogador da vez é que perde.
         \nA pessoa que paga a prenda é aquela que perdeu, esta agora é o que escolhe.
         \n\nModo de jogo 2 (Sortear):
-        \nO jogador da vez pode usar a opção "sortear" disponível, o próprio jogo escolhe um número aleatório e ninguém mais saberá qual é, logo, o jogador da vez também participa desse modo de jogo, pois, também não sabe onde se encontra.</string>
+        \nO jogador da vez pode usar a opção "sortear" disponível, o próprio jogo escolhe um número aleatório e ninguém mais saberá qual é, logo, o jogador da vez também participa desse modo de jogo, pois, também não sabe onde se econtra.</string>
 </resources>
